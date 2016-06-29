@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class DataTypes {
+    public static void main (String [] args) {
+        Scanner a = new Scanner (System.in);
+        System.out.print ("Введите любое число ");
+        double var = a.nextDouble(); //преобразование по сужению типов данных
+
+        System.out.println ("Ваше число в формате byte " +(byte)var);
+        System.out.println ("Ваше число в формате short " +(short)var);
+        System.out.println ("Ваше число в формате int " +(int)var);
+        System.out.println ("Ваше число в формате char " +(char)var);
+        System.out.println ("Ваше число в формате long " +(long)var);
+        System.out.println ("Ваше число в формате float " +(float)var);
+        System.out.println ("Ваше число в формате double " +var);
+    }
+}
